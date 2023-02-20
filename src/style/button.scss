@@ -1,0 +1,46 @@
+@import './variables';
+
+.button {
+    display: block;
+    height: 40px;
+    min-width: 100px;
+    border-radius: 7px;
+    text-align: center;
+    border: none;
+    background-color: $third-color;
+    color: $text-color;
+    transition: color 0.5s;
+    text-decoration: none;
+    padding: 10px 5px;
+    line-height: 20px;
+    color: $text-color;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    &:hover {
+        background-color: $main-color;
+        color: $text-color;
+    }
+    &:disabled {
+        filter: grayscale(.5);
+        cursor: auto;
+        &:hover {
+            background-color: $third-color;
+        }
+    }
+    &_orange {
+        background-color: $secondary-color;
+        &:disabled {
+            &:hover {
+                background-color:  $secondary-color;
+            }
+        }
+        
+    }
+    &_sign-in {
+        width: 100%;
+        &:hover {
+            background-color: $third-color;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+@import '../../style/variables.scss';
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $secondary-color;
+    border-bottom: 2px solid $third-color;
+    padding: 0 12px;
+    &__name {
+        color: $text-color;
+        font-weight: 700;
+        padding: 21px 0;
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 0;
+        a {
+            text-decoration: none;
+            color: inherit;
+            text-transform: uppercase;
+            transition: color 0.3s;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .header {
+        &__name {
+            padding: 8px 0;
+        }
+        &__link {
+            display: block;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        &__name {
+            font-size: 20px;
+        }
+    }
+}

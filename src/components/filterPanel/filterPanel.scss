@@ -1,0 +1,46 @@
+@import '../../style/variables.scss';
+
+.filter-panel {
+    position: relative;
+    display: flex;
+    &__search, &__sort {
+        height: 28px;
+        padding-left: 5px;
+        border-radius: 4px;
+        border: none;
+    }
+    &__search {
+        width: 250px;
+        color: #111;
+    }
+    &__sort {
+        margin-left: 30px;
+        width: 200px;
+    }
+    &__icon {
+        position: absolute;
+        left: 225px;
+        top: 3px;
+        height: 22px;
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .filter-panel {
+        flex-wrap: wrap;
+        width: 300px;
+        margin: 0 auto;
+        &__sort {
+            margin: 10px 0 0 0;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .filter-panel {
+        width: 250px;
+    }
+    
+}
