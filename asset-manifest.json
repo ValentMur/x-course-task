@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/x-course-task/static/css/main.927cf722.css",
+    "main.js": "/x-course-task/static/js/main.1740ed92.js",
+    "static/media/error.gif": "/x-course-task/static/media/error.6312eebc708e7ae82977.gif",
+    "static/media/Montserrat-Bold.woff": "/x-course-task/static/media/Montserrat-Bold.e7d34e28d091869b8442.woff",
+    "static/media/Montserrat-Regular.woff": "/x-course-task/static/media/Montserrat-Regular.fde2f045060fbfcc851c.woff",
+    "static/media/avatar.png": "/x-course-task/static/media/avatar.0d14c6999b4a5c8e86a7.png",
+    "static/media/imageNotFound.png": "/x-course-task/static/media/imageNotFound.298b98203c3825c61303.png",
+    "static/media/cart.svg": "/x-course-task/static/media/cart.5a1c3c755c07e59db7d65be6bc8d8bfb.svg",
+    "static/media/square_minus.svg": "/x-course-task/static/media/square_minus.623b7cfe4a3d3498e9a16735a3b3a2f1.svg",
+    "index.html": "/x-course-task/index.html",
+    "static/media/bars-solid.svg": "/x-course-task/static/media/bars-solid.f6691c2186d43c34469f1bd33925c28b.svg",
+    "static/media/search_icon.svg": "/x-course-task/static/media/search_icon.06e310dbfbf3ab21da478aef6c037c14.svg",
+    "main.927cf722.css.map": "/x-course-task/static/css/main.927cf722.css.map",
+    "main.1740ed92.js.map": "/x-course-task/static/js/main.1740ed92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.927cf722.css",
+    "static/js/main.1740ed92.js"
+  ]
+}
